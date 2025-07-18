@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.107); 
+}
+.top{
+    color:white;
+    height:20vh;
+    width:100vw;
+    background-color: green;
+    text-align:center;
+}
+.titles{
+    color:white;
+    width:100vw;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.776);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.heading{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:auto auto  
+}
+.about{
+    margin-left: 300px;
+}
+.contact{
+    margin-right:300px;
+}
+.section-header{
+    color:#085ea4;   
+    font-size: 25px;
+}
+.sections{
+    width:90vw;
+    margin:25px auto;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.119);
+    padding:30px 20px;
+}
+table{
+    margin-top: 20px;
+    width:85vw;
+}
+table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse; /* makes borders collapse into a single line */
+      padding: 8px;
+}
+.meet-the-speakers strong{
+    color:#085ea4;   
+}
+label{
+    font-size: 20px;
+}
+input{
+    width:75vw;
+    height: 35px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+textarea{
+    height: 100px;
+    width:75vw;
+}
+
+a:active{
+    text-decoration: underline;
+    color:#085ea4;  
+    
+}
+
