@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+        }
+        *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.107); 
+}
+.top{
+    color:white;
+    height:20vh;
+    width:100vw;
+    background-color: green;
+    text-align:center;
+}
+.titles{
+    color:white;
+    width:100vw;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.776);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.heading{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin:auto auto  
+}
+.about{
+    margin-left: 300px;
+    
+}
+.contact{
+    margin-right:300px;
+}
+.section-header{
+    color:#085ea4;   
+    font-size: 25px;
+}
+.sections{
+    width:90vw;
+    margin:25px auto;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.119);
+    padding:30px 20px;
+}
+table{
+    margin-top: 20px;
+    width:85vw;
+}
+table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse; /* makes borders collapse into a single line */
+      padding: 8px;
+}
+.meet-the-speakers strong{
+    color:#085ea4;   
+}
+label{
+    font-size: 20px;
+}
+input{
+    width:75vw;
+    height: 35px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+textarea{
+    height: 100px;
+    width:75vw;
+}
+
+a:active{
+    text-decoration: underline;
+    color:#085ea4;  
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="top">
+            <br>
+            <h1>Welcome To GeeksForGeeks TechCon 2025</h1>
+            <br>
+            <p class="topp">The Ultimate Technology and Programming Conference</p>
+        </div>
+        <div class="titles">
+            <a href="./subpage/index.html" class="heading about">©About</a>
+            <a href="http://127.0.0.1:5500/htmlPractice/codechef%20project/index.html" target=_blank class="heading schedules">Schedules</a>
+            <a href="#" class="heading speakers">Speakers</a>
+            <a href="http://127.0.0.1:5500/htmlPractice/geeksforgeeks%20practiec/index.html#" class="heading contact">☎️Contact</a>
+        </div>
+        <div class="about-the-event sections">
+            <h1 class="section-header">About the Event</h1> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur dolorem neque molestiae dolorum asperiores reiciendis placeat vitae expedita ab!</p>   
+        </div>
+        <div class="event-schedule sections">
+            <h1 class="section-header">Event Schedule</h1>
+            <table>
+            <tr class="cell-one">
+                <th>Time</th>
+                <th>Session</th>
+                <th>Contest</th>
+            </tr>
+            <tr>
+                <td>09:00 AM</td>
+                <td>Opening Keynote</td>
+                <td>GeeksForGeeks Coding Platform</td>
+            </tr>
+            <tr>
+                <td>10:30 AM</td>
+                <td>Understanding AI and Machine Learning</td>
+                <td>Mr. Arving Kumar</td>
+            </tr>
+            <tr>
+                <td>01:00 PM</td>
+                <td>Lunch Break</td>
+                <td>  -</td>
+            </tr>
+            <tr>
+                <td>02:00 PM</td>
+                <td>Exploring the Features of Cloud Computing</td>
+                <td>Ms. Neha Guptha</td>
+            </tr>
+        </table>
+        </div>
+        <div class="meet-the-speakers sections">
+            <h1 class="section-header">Meet the Speakers</h1><br>
+            <p><Strong>Dr. Radhika Sharma:</Strong> AI Expert and Researcher</p>
+            <p><Strong>Mr Arvind Kumar:</Strong>senior Data Scientist at TechWave</p>
+            <p><strong>Ms Neha Guptha:</strong>Cloud computing Specialist at cloudtech</p>
+            <p><strong>Mr Sandeep Reddy:</strong> Full Stack Developer and Open-source Contributor</p>
+        </div>
+        <div class="contact-us sections">
+            <h1 class="section-header">Contact Us</h1><br>
+            <label for="name">Name:</label> <br>
+            <input type="text" name="name" placeholder="    Enter Your Name :"><br>
+            <label for="email">Email:</label><br>
+            <input type="Email" name="Email" placeholder="   mymail@gmail.com"><br>
+            <label for="Message">Message:</label><br>
+            <textarea name="message" id="message"></textarea>
+        </div>
+    </div>
+</body>
+</html>
